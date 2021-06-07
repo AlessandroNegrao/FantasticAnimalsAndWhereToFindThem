@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>acai</key>
+		<dict>
+			<key>Definition</key>
+			<string>Açaí, typical of the Amazon region, açaí fruit is widely used by the inhabitants in the preparation of juices, wines, sweets, liqueurs and ice cream. In the illustration to the side we have the popular wine taken by people from the Amazon region.</string>
+			<key>Title</key>
+			<string>Açaí</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Chapter1.playgroundchapter/Page5.playgroundpage</string>
+				<key>Title</key>
+				<string>Congrats</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

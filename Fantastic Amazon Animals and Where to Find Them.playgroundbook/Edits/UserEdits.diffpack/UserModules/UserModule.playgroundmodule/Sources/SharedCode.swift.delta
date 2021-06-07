@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>
+import PlaygroundSupport
+import Foundation
+import SpriteKit
+
+class SKButtonNode: SKNode {
+    var imagem: SKSpriteNode?
+    var label: SKLabelNode?
+    var action: (() -&gt; Void)?
+    
+    init(image: SKSpriteNode, label: SKLabelNode, action: @escaping () -&gt; Void){
+        self.imagem = image
+        self.label = label
+        self.action = action
+        super.init()
+        self.isUserInteractionEnabled = true
+        
+        self.addChild(image)
+        self.addChild(label)
+        
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    override func touchesBegan(_ touches: Set&lt;UITouch&gt;, with event: UIEvent?) {
+        self.action?()
+    }
+}
+
+
+//Button to go to the next Page
+var buttonImage: SKSpriteNode = {
+    let imageNextPage = SKSpriteNode(imageNamed: "nextButton.png")
+    imageNextPage.position = CGPoint(x: 350, y: -650)
+    imageNextPage.zPosition = 8
+    imageNextPage.setScale(1)
+    return imageNextPage
+}()
+
+var finishImage: SKSpriteNode = {
+    let imageNextPage = SKSpriteNode(imageNamed: "finishButton.png")
+    imageNextPage.position = CGPoint(x: 350, y: -650)
+    imageNextPage.zPosition = 8
+    imageNextPage.setScale(1)
+    return imageNextPage
+}()
+</string>
+			<key>ModifiedRange</key>
+			<string>{75, 1235}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{75, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>UserModules/UserModule.playgroundmodule/Sources/SharedCode.swift</string>
+</dict>
+</plist>
