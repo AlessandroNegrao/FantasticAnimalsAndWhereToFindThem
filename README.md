@@ -1,7 +1,7 @@
 # Fantastic Animals and Where to Find Them
 
 <h1 align="center">
-  <img alt="Cover WWDC" scr="https://user-images.githubusercontent.com/19698553/121082593-50de9980-c7ac-11eb-8b28-7f9ef8609df6.png" width="1000x"/>
+  <img alt="Cover WWDC" scr="./FantasticAnimalsAndWhereToFindThem/Fantastic Amazon Animals and Where to Find Them.playgroundbook/Contents/PrivateResources/cover.png" width="1000x"/>
 </h1>
 
 ![cover](https://user-images.githubusercontent.com/19698553/121082593-50de9980-c7ac-11eb-8b28-7f9ef8609df6.png)
