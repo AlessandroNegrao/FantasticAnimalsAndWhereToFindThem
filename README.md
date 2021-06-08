@@ -18,7 +18,9 @@ In this project, the following technologies were used:
 - [Figma](https://www.figma.com/files/recent?fuid=822167376206101685)
 - [GarageBand](https://apps.apple.com/br/app/garageband/id408709785)
 
-## Access the video
+## How to Execute
 
-If you want to see the playground in operation without downloading, [click here](https://youtu.be/S5_PlNU-fOU) and go to Youtube.
+Download the repository and run the project in Swift Playgrounds 3.4.1.
+
+If you want to see the playground in operation without downloading it, [click here](https://youtu.be/S5_PlNU-fOU) and go to Youtube.
 
